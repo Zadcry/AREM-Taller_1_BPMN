@@ -4,12 +4,12 @@
 _Indique la fecha de la clase en que se trabajó este taller._
 
 ## 👥 Integrantes presentes
-- Julián Mauricio Zafra (pongan su correo)
-- Camilo Arciniegas (pongan su correo)
-- Santiago Araque (pongan su correo)
-- Juan Diego Campo (pongan su correo)
+- Julián Mauricio Zafra (julianzamo@unisabana.edu.co)
+- Camilo Arciniegas Guerrero (camiloarcgu@unisabana.edu.co)
+- Santiago Andrés Araque (santiagoaral@unisabana.edu.co)
+- Juan Diego Campo (juancamco@unisabana.edu.co)
 - Juan Sebastián Ayala (juanaysi@unisabana.edu.co)
-- Juan José Forero (ponganle el correo)
+- Juan José Forero (juanfope@unisabana.edu.co)
 
 ## 🧠 Actividades realizadas en clase
 
@@ -47,9 +47,13 @@ Anote las responsabilidades acordadas entre los miembros del equipo para complet
 
 | Tarea asignada | Responsable | Fecha estimada |
 |----------------|-------------|----------------|
-| Modelado final en draw.io | Nombre 1 | 10/08 |
-| Redacción del informe     | Nombre 2 | 11/08 |
-| Investigación y referencias | Nombre 3 | 12/08 |
+| Modelado en miro y draw.io | Juan José Forero | 10/08 |
+| Modelado final en draw.io | Julián Mauricio Zafra | 10/08 |
+| Redacción del informe   | Juan Diego Campo | 11/08 |
+| Redacción del informe y notas   | Santiago Andrés Araque | 11/08 |
+| Investigación y referencias | Camilo Arciniegas Guerrero  | 12/08 |
+| Investigación y referencias | Juan Sebastián Ayala | 12/08 |
+
 
 ---
 
