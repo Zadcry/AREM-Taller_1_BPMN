@@ -22,7 +22,7 @@ Durante el taller, se definieron los eventos de inicio del proceso y se identifi
 
 - ¿Qué decisiones de modelado se tomaron?
 
-El equipo definió un evento de inicio simple llamado "Solicitud de Cita del Paciente" y construyó un flujo secuencial principal que incluye la selección del especialista, la selección del médico, la selección de la fecha y la confirmación. El flujo incluye una puerta de enlace dedicada (mediante una operación XOR) para verificar la disponibilidad del médico y otra puerta de enlace para verificar el éxito de la cita. Los participantes se organizan en diferentes grupos o canales, distinguiendo entre pacientes y el sistema de citas, con "Confirmación de Cita" como evento final. Finalmente, el equipo decidió modelar el envío de notificaciones como una acción que el sistema realiza automáticamente tras la confirmación.
+El equipo definió un evento de inicio simple llamado "Solicitud de Cita del Paciente" y construyó un flujo secuencial principal que incluye la selección del especialista, la selección del médico, la selección de la fecha y la confirmación. El flujo incluye una puerta de enlace dedicada para verificar la disponibilidad del médico y otra puerta de enlace para verificar el éxito de la cita. Los participantes se organizan en diferentes grupos o canales, distinguiendo entre pacientes y el sistema de citas, con "Confirmación de Cita" como evento final.
 
 
 - ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
