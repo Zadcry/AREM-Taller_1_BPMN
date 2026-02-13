@@ -3,11 +3,14 @@
 ## 🔖 Nombre del Taller
 _Taller X - [Nombre completo del taller]_
 
-## 👥 Integrantes del equipo
-- Nombre 1 (correo o usuario GitHub)
-- Nombre 2
-- Nombre 3
-
+## Integrantes del equipo
+- Julián Mauricio Zafra (pongan su correo)
+- Camilo Arciniegas (pongan su correo)
+- Santiago Araque (pongan su correo)
+- Juan Diego Campo (pongan su correo)
+- Juan Sebastián Ayala (juanaysi@unisabana.edu.co)
+- Juan José Forero (ponganle el correo)
+- 
 ## 🧠 Descripción general del trabajo
 Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
 
