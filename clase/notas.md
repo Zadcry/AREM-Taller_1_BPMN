@@ -47,12 +47,12 @@ Anote las responsabilidades acordadas entre los miembros del equipo para complet
 
 | Tarea asignada | Responsable | Fecha estimada |
 |----------------|-------------|----------------|
-| Modelado en miro y draw.io | Juan José Forero | 10/08 |
-| Modelado final en draw.io | Julián Mauricio Zafra | 10/08 |
-| Redacción del informe   | Juan Diego Campo | 11/08 |
-| Redacción del informe y notas   | Santiago Andrés Araque | 11/08 |
-| Investigación y referencias | Camilo Arciniegas Guerrero  | 12/08 |
-| Investigación y referencias | Juan Sebastián Ayala | 12/08 |
+| Modelado en miro y draw.io | Juan José Forero | 06/02 |
+| Modelado final en draw.io | Julián Mauricio Zafra | 13/02 |
+| Redacción del informe   | Juan Diego Campo | 13/02 |
+| Redacción del informe y notas   | Santiago Andrés Araque | 13/02 |
+| Investigación y referencias | Camilo Arciniegas Guerrero  | 13/02 |
+| Investigación y referencias | Juan Sebastián Ayala | 12/02 |
 
 
 ---
