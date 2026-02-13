@@ -10,7 +10,7 @@ _Taller X - [Nombre completo del taller]_
 - Juan Diego Campo (pongan su correo)
 - Juan Sebastián Ayala (juanaysi@unisabana.edu.co)
 - Juan José Forero (ponganle el correo)
-- 
+
 ## 🧠 Descripción general del trabajo
 Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
 
@@ -38,7 +38,7 @@ Incluya un análisis sobre:
 
 ### Buenas prácticas en BPMN
 
-Según el artículo _BPMN Best Practices_, los modelos BPMN deberían seguir las siguientes reglas y prácticas:
+Según el artículo _BPMN Best Practices_[1], los modelos BPMN deberían seguir las siguientes reglas y prácticas:
 
 **1. Empieza con un objetivo claro**: Tener el objetivo claro desde el principio permite asegurarse que el modelo está alineado con los objetivos de la organización o proyecto.
 
@@ -54,11 +54,11 @@ Según el artículo _BPMN Best Practices_, los modelos BPMN deberían seguir las
 
 ### TOGAF
 
-Es un marco de la arquitectura empresarial que tiene el objetivo de apoyar a las empresas en la planeación, diseño e implementación de su arquitectura de manera organizada. Para llevar a cabo este marco de arquitectura, se utiliza la ADM (Architecture Development Method), una metodología formal para guiar la construcción y el mantenimiento de la arquitectura de la empresa u orgaanización.
+Es un marco de la arquitectura empresarial que tiene el objetivo de apoyar a las empresas en la planeación, diseño e implementación de su arquitectura de manera organizada. Para llevar a cabo este marco de arquitectura, se utiliza la ADM (Architecture Development Method), una metodología formal para guiar la construcción y el mantenimiento de la arquitectura de la empresa u orgaanización. [2]
 
 ### C4
 
-El modelo C4 es una técnica de notación gráfica utilizada para modelar la estructuración de la arquitectura de sistemas de software. Se basa en la representación visual de la estructura del sistema con diferentes niveles de abstracción, desde el contexto más general hasta el código, pasando por contenedores, componentes y código. Se centra principalmente en hacer que las arquitecturas de sistemas de software sean claramente visibles y comprensibles.
+El modelo C4 es una técnica de notación gráfica utilizada para modelar la estructuración de la arquitectura de sistemas de software. Se basa en la representación visual de la estructura del sistema con diferentes niveles de abstracción, desde el contexto más general hasta el código, pasando por contenedores, componentes y código. Se centra principalmente en hacer que las arquitecturas de sistemas de software sean claramente visibles y comprensibles.[3]
 
 ### Diferencias entre ambos modelos
 
@@ -68,7 +68,7 @@ El modelo C4 es una técnica de notación gráfica utilizada para modelar la est
 
 ### ¿Qué es el modelo STRIDE?
 
-Es una herramienta estructurada que tiene el objetivo de identificar amenazas de seguridad en sistemas de software. Las amenazas se clasifican principalmente en seis categorías:
+Es una herramienta estructurada que tiene el objetivo de identificar amenazas de seguridad en sistemas de software. Las amenazas se clasifican principalmente en seis categorías[4]:
 
 **1. Spoofing:** Un atacante se hace pasar por otro usuario  para obtener acceso no autorizado. 
 
@@ -87,16 +87,14 @@ Gracias a esta clasificación, el equipo de seguridad de software puede anticipa
 En resumen, el modelo STRIDE permite analizar la seguridad de un sistema de forma preventiva, ayudando así a identificar vulnerabilidades en el desarrollo para que no lleguen al resultado o producto final. La clasificación de las amenazas en seis categorías claras permite la implementación de controles de seguridad desde las primeras fases de diseño del sistema, de esta forma, se reducen los riesgos y se fortalece la seguridad del sistema.
 
 
-
-
-
-
 ### Resumen:
 Describa en 2–3 párrafos lo investigado, citando fuentes cuando sea necesario. Incluya cómo se relaciona con el taller.
 
 ## 📚 Referencias
-- [1] Apellido, Nombre. *Título*. Año. URL o DOI.
-- [2] Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
+- [1] BPMN Best Practices. (s. f.). BPMN.page. Recuperado de https://bpmn.page/article/BPMN_Best_Practices.html
+- [2] The Open Group, TOGAF® Standard, 10th Edition, 2022. [En línea]. Disponible en: https://www.opengroup.org/togaf
+- [3] Visual Paradigm, Desvelando el poder del modelo C4: Simplificando los diagramas de arquitectura de software – Visual Paradigm Blog Español. [En línea]. Disponible en: https://blog.visual-paradigm.com/es/unveiling-the-power-of-c4-model-simplifying-software-architecture-diagrams/
+- [4] Microsoft, “Threat modeling tool – STRIDE per element,” Microsoft Learn. [En línea]. Disponible en: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats
 
 ---
 
