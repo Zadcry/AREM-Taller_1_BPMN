@@ -4,12 +4,12 @@
 _Taller X - [Nombre completo del taller]_
 
 ## Integrantes del equipo
-- Julián Mauricio Zafra (pongan su correo)
-- Camilo Arciniegas (pongan su correo)
-- Santiago Araque (pongan su correo)
+- Julián Mauricio Zafra (julianzamo@unisabana.edu.co)
+- Camilo Arciniegas Guerrero (camiloarcgu@unisabana.edu.co)
+- Santiago Andrés Araque (santiagoaral@unisabana.edu.co)
 - Juan Diego Campo (juancamco@unisabana.edu.co)
 - Juan Sebastián Ayala (juanaysi@unisabana.edu.co)
-- Juan José Forero (ponganle el correo)
+- Juan José Forero (juanfope@unisabana.edu.co)
 
 ## 🧠 Descripción general del trabajo
 Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
