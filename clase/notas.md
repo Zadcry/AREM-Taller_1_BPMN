@@ -17,19 +17,29 @@ Describa brevemente qué se hizo durante la sesión:
 
 - ¿Qué se discutió con el equipo?
 
+Durante el taller, se definieron los eventos de inicio del proceso y se identificaron las principales actividades que componen el proceso de programación. Se identificaron las partes interesadas y los puntos de decisión necesarios (puertas de enlace) para representar la validación (p. ej., disponibilidad del médico o confirmación de la cita). Además, se analizaron posibles alternativas, como la indisponibilidad del médico o la confirmación incorrecta, y las interacciones entre el proceso y el sistema de citas, la base de datos y los sistemas de notificación por correo electrónico o SMS.
+
 
 - ¿Qué decisiones de modelado se tomaron?
 
+El equipo definió un evento de inicio simple llamado "Solicitud de Cita del Paciente" y construyó un flujo secuencial principal que incluye la selección del especialista, la selección del médico, la selección de la fecha y la confirmación. El flujo incluye una puerta de enlace dedicada (mediante una operación XOR) para verificar la disponibilidad del médico y otra puerta de enlace para verificar el éxito de la cita. Los participantes se organizan en diferentes grupos o canales, distinguiendo entre pacientes y el sistema de citas, con "Confirmación de Cita" como evento final. Finalmente, el equipo decidió modelar el envío de notificaciones como una acción que el sistema realiza automáticamente tras la confirmación.
+
 
 - ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
-
+  - **Miro**: Boceto colaborativo inicial.
+  - **Draw.io (diagrams.net)**: Digitalización formal del modelo BPMN.
+  - Retroalimentación en clase por parte del docente.
 
 - ¿Qué parte del trabajo se alcanzó a desarrollar?
+  - Modelar completamente el proceso base del caso.
+  - Identificar evento de inicio y fin.
+  - Seleccionar las actividades principales.
+  - Escuchar retroalimentación del docente para corregir.
 
 
 ## 🧩 Boceto inicial del modelo
 
-> (Puede insertar aquí una imagen del boceto, una captura de pantalla o un diagrama preliminar si ya fue hecho en digital)
+<img width="1091" height="671" alt="modelo_trabajo_clase drawio" src="https://github.com/user-attachments/assets/d4389786-c2dc-4209-b7fa-7040680c216b" />
 
 ## 🔁 Tareas definidas para complementar el taller
 
