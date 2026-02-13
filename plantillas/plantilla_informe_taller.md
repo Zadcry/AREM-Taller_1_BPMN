@@ -32,9 +32,64 @@ Incluya un análisis sobre:
 |---------------------|------|-------------|-------------|
 | Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
 
-## 🔍 Investigación complementaria
+##  Investigación complementaria
+
 ### Tema investigado:
-(Ej: Buenas prácticas BPMN, comparación TOGAF vs C4, principios de seguridad STRIDE, etc.)
+
+### Buenas prácticas en BPMN
+
+Según el artículo _BPMN Best Practices_, los modelos BPMN deberían seguir las siguientes reglas y prácticas:
+
+**1. Empieza con un objetivo claro**: Tener el objetivo claro desde el principio permite asegurarse que el modelo está alineado con los objetivos de la organización o proyecto.
+
+**2. Mantenlo simple**: Usa solo los elementos necesarios y evita complejidad innecesaria para que sean claros y fáciles de mantener. 
+
+**3. Usa notación consistente**: Utiliza siempre los mismos símbolos y reglas de notación para mantener claridad y coherencia.
+
+**4. Prueba tus modelos**: Realiza tests y simula el proceso para detectar errores y mejorar su funcionamiento antes de implementarlo.
+
+**5. Mejora tu modelo continuamente**: Revisa y optimiza constantemente tus procesos BPMN usando datos para mantener eficiencia y mejora continua.
+
+### TOGAF Versus C4
+
+### TOGAF
+
+Es un marco de la arquitectura empresarial que tiene el objetivo de apoyar a las empresas en la planeación, diseño e implementación de su arquitectura de manera organizada. Para llevar a cabo este marco de arquitectura, se utiliza la ADM (Architecture Development Method), una metodología formal para guiar la construcción y el mantenimiento de la arquitectura de la empresa u orgaanización.
+
+### C4
+
+El modelo C4 es una técnica de notación gráfica utilizada para modelar la estructuración de la arquitectura de sistemas de software. Se basa en la representación visual de la estructura del sistema con diferentes niveles de abstracción, desde el contexto más general hasta el código, pasando por contenedores, componentes y código. Se centra principalmente en hacer que las arquitecturas de sistemas de software sean claramente visibles y comprensibles.
+
+### Diferencias entre ambos modelos
+
+* TOGAF se enfoca en como gestionar la arquitectura empresarial, mientras que C4 se especializa en dar una representación visual de la arquitectura de software.
+* Los usuarios de TOGAF son generalmente arquitectos empresariales, mientras que los usuarios de C4 son arquitectos de software.
+* TOGAF cubre el apartado de negocio, datos y aplicaciones. C4 cubre sistemas, componentes y código.
+
+### ¿Qué es el modelo STRIDE?
+
+Es una herramienta estructurada que tiene el objetivo de identificar amenazas de seguridad en sistemas de software. Las amenazas se clasifican principalmente en seis categorías:
+
+**1. Spoofing:** Un atacante se hace pasar por otro usuario  para obtener acceso no autorizado. 
+
+**2. Tampering:** Alteración no autorizada de datos, código o recursos del sistema.
+
+**3. Repudiation:** Situación en la cual un usuario puede negar haber realizado una acción y no existen pruebas suficientes para demostrarlo.
+
+**4. Information Disclosure:** Exposición de datos sensibles a usuarios no autorizados.
+
+**5. Denial Of Service:** Ataques que impiden a los usuarios legítimos acceder a recursos o servicios.
+
+**6. Elevation of Privilege:** Un atacante obtiene permisos más elevados de lo que debería, permitiéndole ejecutar acciones restringidas.
+
+Gracias a esta clasificación, el equipo de seguridad de software puede anticiparse a riesgos y aplicar mitigaciones apropiadas durante el ciclo de vida del desarrollo.
+
+En resumen, el modelo STRIDE permite analizar la seguridad de un sistema de forma preventiva, ayudando así a identificar vulnerabilidades en el desarrollo para que no lleguen al resultado o producto final. La clasificación de las amenazas en seis categorías claras permite la implementación de controles de seguridad desde las primeras fases de diseño del sistema, de esta forma, se reducen los riesgos y se fortalece la seguridad del sistema.
+
+
+
+
+
 
 ### Resumen:
 Describa en 2–3 párrafos lo investigado, citando fuentes cuando sea necesario. Incluya cómo se relaciona con el taller.
