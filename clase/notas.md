@@ -4,18 +4,28 @@
 _Indique la fecha de la clase en que se trabajó este taller._
 
 ## 👥 Integrantes presentes
-- Nombre 1
-- Nombre 2
-- Nombre 3
+- Julián Mauricio Zafra (pongan su correo)
+- Camilo Arciniegas (pongan su correo)
+- Santiago Araque (pongan su correo)
+- Juan Diego Campo (pongan su correo)
+- Juan Sebastián Ayala (juanaysi@unisabana.edu.co)
+- Juan José Forero (ponganle el correo)
 
 ## 🧠 Actividades realizadas en clase
 
 Describa brevemente qué se hizo durante la sesión:
 
 - ¿Qué se discutió con el equipo?
+
+
 - ¿Qué decisiones de modelado se tomaron?
+
+
 - ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
+
+
 - ¿Qué parte del trabajo se alcanzó a desarrollar?
+
 
 ## 🧩 Boceto inicial del modelo
 
