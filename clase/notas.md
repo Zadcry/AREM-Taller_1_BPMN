@@ -1,7 +1,7 @@
-# 🗒️ Registro de Trabajo en Clase - Taller X
+# 🗒️ Registro de Trabajo en Clase - Taller 1
 
 ## 📆 Fecha de la sesión
-_Indique la fecha de la clase en que se trabajó este taller._
+_6 de febrero de 2026_
 
 ## 👥 Integrantes presentes
 - Julián Mauricio Zafra (julianzamo@unisabana.edu.co)
@@ -13,11 +13,9 @@ _Indique la fecha de la clase en que se trabajó este taller._
 
 ## 🧠 Actividades realizadas en clase
 
-Describa brevemente qué se hizo durante la sesión:
-
 - ¿Qué se discutió con el equipo?
 
-Durante el taller, se definieron los eventos de inicio del proceso y se identificaron las principales actividades que componen el proceso de programación. Se identificaron las partes interesadas y los puntos de decisión necesarios (puertas de enlace) para representar la validación (p. ej., disponibilidad del médico o confirmación de la cita). Además, se analizaron posibles alternativas, como la indisponibilidad del médico o la confirmación incorrecta, y las interacciones entre el proceso y el sistema de citas, la base de datos y los sistemas de notificación por correo electrónico o SMS.
+Durante el taller, se definieron los eventos de inicio del proceso y se identificaron las principales actividades que componen el proceso de programación. Se identificaron las partes interesadas y los puntos de decisión necesarios para representar la validación. Además, se analizaron posibles alternativas, como la indisponibilidad del médico o la confirmación incorrecta, y las interacciones entre el proceso y el sistema de citas, la base de datos y los sistemas de notificación por correo electrónico o SMS.
 
 
 - ¿Qué decisiones de modelado se tomaron?
@@ -51,7 +49,7 @@ Anote las responsabilidades acordadas entre los miembros del equipo para complet
 | Modelado final en draw.io | Julián Mauricio Zafra | 13/02 |
 | Redacción del informe   | Juan Diego Campo | 13/02 |
 | Redacción del informe y notas   | Santiago Andrés Araque | 13/02 |
-| Investigación y referencias | Camilo Arciniegas Guerrero  | 13/02 |
+| Investigación y referencias | Camilo Arciniegas Guerrero  | 12/02 |
 | Investigación y referencias | Juan Sebastián Ayala | 12/02 |
 
 
