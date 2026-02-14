@@ -19,8 +19,8 @@ gestionan las clases mensuales, desde la selección y pago por parte de los clie
 control de asistencia y cierre del período.
 
 
-## 🔧 Proceso de desarrollo
-Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
+##  Proceso de desarrollo
+La primera decisión importante que se manifestó en el equipo fue seleccionar el proceso que se quería analizar y modelar siguiendo las practicas BPMN. Teniendo en cuenta que el cliente seleccionado se trata de un gimnasio con un sistema de membresías para sus usuarios, decidimos modelar el proceso de Adquisición y Manejo de Membresías, el cual es un proceso clave dentro del modelo de negocio de la empresa. Para continuar con el modelo BPMN, decidimos utilizar la herramienta de draw.io para este propósito. Dentro del modelo, nos dimos cuenta que existen tres actores en el proceso seleccionado. Con estos actores definidos, se manejó el flujo de acciones y se modeló correctamente el proceso que se había establecido.
 
 ##  Análisis del modelo propuesto
 
