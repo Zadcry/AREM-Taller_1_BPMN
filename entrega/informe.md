@@ -1,7 +1,7 @@
-# 📄 Informe Técnico del Taller
+#  Informe Técnico del Taller
 
-## 🔖 Nombre del Taller
-_Taller X - [Nombre completo del taller]_
+##  Nombre del Taller
+Taller 1 - Modelado del proceso del cliente con BPMN
 
 ## Integrantes del equipo
 - Julián Mauricio Zafra (julianzamo@unisabana.edu.co)
@@ -11,22 +11,88 @@ _Taller X - [Nombre completo del taller]_
 - Juan Sebastián Ayala (juanaysi@unisabana.edu.co)
 - Juan José Forero (juanfope@unisabana.edu.co)
 
-## 🧠 Descripción general del trabajo
-Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
+##  Descripción general del trabajo
+
+Para este proyecto trabajamos con el análisis de un proceso real perteneciente a un
+gimnasio especializado en la práctica de parkour. Este proceso describe la forma en que se
+gestionan las clases mensuales, desde la selección y pago por parte de los clientes hasta el
+control de asistencia y cierre del período.
+
 
 ## 🔧 Proceso de desarrollo
 Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
 
-## 🧩 Análisis del modelo propuesto
-Incluya un análisis sobre:
-- Cómo se estructura el modelo entregado
-- Cómo representa las necesidades del cliente
-- Qué supuestos se tomaron
+##  Análisis del modelo propuesto
 
-## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
+El proceso actual de gestión de clases del gimnasio involucra tres actores principales:
+• Clientes
+• Gimnasio (personal administrativo y entrenadores)
+• Sistema de registro (archivo Excel)
+Flujo del proceso:
+1. Selección y pago del plan
 
-## 📋 Tabla de actores, entidades o componentes (si aplica)
+* Durante los primeros 5 días del mes, los clientes deciden cuántas clases
+tomarán.
+ 
+* Realizan el pago correspondiente al número de clases.
+
+2. Registro manual del pago
+* El gimnasio recibe el pago.
+* El personal ingresa manualmente en un archivo Excel:
+* nombre del cliente
+* número de clases adquiridas
+3. Asistencia a clases
+* El cliente asiste a una clase.
+* El entrenador imparte la clase.
+4. Registro de asistencia
+* Al finalizar la clase, el personal registra en el Excel:
+* qué clientes asistieron
+* se descuenta automáticamente una clase del saldo disponible
+* se adjunta una fotografía como evidencia de asistencia
+5. Cierre mensual
+Al finalizar el mes:
+* las clases no utilizadas se eliminan
+* El Excel se reinicia para el siguiente período
+El proceso actual maneja de manera simple el control de asistencia y permite llevar un
+seguimiento básico del uso de las clases adquiridas por los clientes. Además, incluye un
+descuento automático de las clases disponibles, lo que facilita conocer el saldo restante
+de cada usuario.
+Sin embargo presenta falencias importantes, destacando la gestión manual en varios
+momentos del proceso, esto incrementa el riesgo de inconsistencias, omisiones y errores
+humanos generando posibles problemas futuros relacionados con la seguridad y la
+perdida de información.
+
+### Diferencias con el caso visto en clase (Clínica Salud Viva):
+
+Inicialmente vemos una gran diferencia en cuanto a la automatización, donde la clínica
+tiene un nivel bastante alto comparado con el del gimnasio. La Clínica Salud Viva cuenta
+con una plataforma digital que permite a los pacientes agendar citas médicas, recibir
+notificaciones y consultar su historial de atención. En cambio, el gimnasio gestiona todo el
+proceso mediante un archivo Excel y registros manuales, sin validaciones automáticas ni
+comunicación digital con los usuarios.
+También se evidencia una diferencia en la gestión de la información y la trazabilidad. En la
+clínica, cada paso del proceso queda registrado digitalmente, permitiendo consultar
+historiales y mantener un seguimiento estructurado del paciente. En el gimnasio, aunque se
+lleva un control de asistencia y evidencia fotográfica, la información está limitada a un
+registro mensual que se reinicia al finalizar el período, lo que impide un historial
+acumulativo de largo plazo.
+A continuación, se ve una tabla comparativa entre ambos procesos:
+
+<img width="752" height="425" alt="image" src="https://github.com/user-attachments/assets/a7e287d1-0473-4500-8a4a-f32c14c0118a" />
+
+El proceso del gimnasio puede mejorar mediante la implementación de un sistema digital
+que automatice el registro de pagos, el control de asistencia y la generación de reportes.
+Además, el envío de notificaciones y la posibilidad de reservar clases ayudarían a mejorar
+la organización y la experiencia del cliente. Mantener un historial acumulativo y centralizar
+la información también reduciría errores y aumentaría la eficiencia administrativa.
+
+##  Diagrama final entregado
+
+![Diagrama final](https://github.com/user-attachments/assets/4da4d37a-0a68-4a7e-8d13-afe303c8ce4b)
+
+
+
+##  Tabla de actores, entidades o componentes (si aplica)
 
 | Nombre del elemento | Tipo | Descripción | Responsable |
 |---------------------|------|-------------|-------------|
@@ -88,9 +154,12 @@ En resumen, el modelo STRIDE permite analizar la seguridad de un sistema de form
 
 
 ### Resumen:
-Describa en 2–3 párrafos lo investigado, citando fuentes cuando sea necesario. Incluya cómo se relaciona con el taller.
 
-## 📚 Referencias
+En la investigación complementaria se abordaron buenas prácticas del modelo BPMN, así como enfoques de arquitectura TOGAF, el modelo C4 y el modelo STRIDE para identificar amenazas. Las buenas prácticas en BPMN resaltan la importancia de tener un objetivo claro desde el principio, mantener la simplicidad y validar los modelos antes de pasarlos a una etapa más avanzada. Finalmente, STRIDE identifica vulnerabilidades y amenazas de seguridad clasificándolas en seis categorías, permitiendo implementar controles preventivos desde la fase de diseño.
+
+Estos marcos de arquitectura evidencian puntos clave con lo realizado en el presente taller. Ver el gym por medio de BPMN fue más que dibujar pasos y roles, abrió espacio para pensar cambios reales. La claridad llegó cuando se usaron reglas simples al diseñar el esquema. Saber qué separa TOGAF de C4 muestra mejor hasta dónde podría crecer ese sistema. El uso del marco STRIDE reveló peligros poco vistos: datos extraviados, archivos modificados sin control, ausencia de seguimiento claro. Todo junto da una mirada completa. No se trata solo de movimientos encadenados. Se convierte en pieza dentro de una estructura mayor, lista para avanzar hacia formatos digitales estables, ordenados, protegidos.
+
+##  Referencias
 - [1] BPMN Best Practices. (s. f.). BPMN.page. Recuperado de https://bpmn.page/article/BPMN_Best_Practices.html
 - [2] The Open Group, TOGAF® Standard, 10th Edition, 2022. [En línea]. Disponible en: https://www.opengroup.org/togaf
 - [3] Visual Paradigm, Desvelando el poder del modelo C4: Simplificando los diagramas de arquitectura de software – Visual Paradigm Blog Español. [En línea]. Disponible en: https://blog.visual-paradigm.com/es/unveiling-the-power-of-c4-model-simplifying-software-architecture-diagrams/
