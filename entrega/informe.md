@@ -94,9 +94,17 @@ la información también reduciría errores y aumentaría la eficiencia administ
 
 ##  Tabla de actores, entidades o componentes (si aplica)
 
-| Nombre del elemento | Tipo | Descripción | Responsable |
-|---------------------|------|-------------|-------------|
-| Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
+| Nombre del elemento                     | Tipo        | Descripción                                                                 | Responsable |
+|------------------------------------------|------------|-----------------------------------------------------------------------------|-------------|
+| Cliente                                 | Actor      | Persona que recibe clases mensuales, realiza el pago y asiste a entrenamientos. | Cliente |
+| Personal administrativo del gimnasio    | Actor      | Recibe el pago, registra información en el sistema y gestiona el cierre mensual. | Gimnasio |
+| Entrenador                              | Actor      | Imparte la clase y valida la asistencia de los clientes.                  | Gimnasio |
+| Archivo Excel                           | Entidad  | Herramienta utilizada para registrar pagos, asistencia y saldo de clases. | Gimnasio |
+| Registro de pago                        | Entidad    | Información almacenada sobre el número de clases adquiridas por el cliente. | Personal administrativo |
+| Registro de asistencia                  | Entidad    | Registro de los clientes que asistieron a clase y evidencia fotográfica.  | Personal administrativo |
+| Fotografía de evidencia                 | Entidad    | Imagen adjunta como prueba de asistencia del cliente a la clase.          | Personal administrativo |
+| Proceso de descuento automático         | Componente | Funcionalidad del Excel que descuenta una clase del saldo disponible.     | Sistema (Excel) |
+| Proceso de cierre mensual               | Componente | Eliminación de clases no utilizadas y reinicio del archivo para nuevo ciclo. | Personal administrativo |
 
 ##  Investigación complementaria
 
